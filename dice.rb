@@ -34,7 +34,7 @@ get("/dice/2/10") do
   @outcome = "You rolled a #{first_die} and a #{second_die} for a total of #{sum}."
 
   erb(:two_ten)
-  
+
 end
 
 get("/dice/1/20") do
